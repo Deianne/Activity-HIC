@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Bar Activity</title>
+
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 20;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 5px solid #14a88f;
+    width: 80px;
+  }
+
+  li a:hover {
+    width: 80px;
+    height: 20px;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+    background-color: #ffffff;
+    color: #14a88f;
+  }
+  
+  .active {
+    width: 80px;
+    height: 19px;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+    background-color: #14a88f;
+    color: #ffffff;
+  }
+</style>
+
+</head>
+  <body>
+        <ul>
+            <li><a class="active" href="#home" class="home">Home</a></li>
+            <li><a href="#products" class="products">Products</a></li>
+            <li><a href="#company" class="company">Company</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
+        </ul>
+  </body>
+</html>
